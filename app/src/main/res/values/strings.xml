@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ExampleFunction</string>
+    <string name="generate_code_qr">Generate Code QR</string>
+</resources>
