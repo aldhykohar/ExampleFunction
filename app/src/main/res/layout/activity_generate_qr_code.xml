@@ -10,7 +10,45 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:padding="16dp"
         tools:context=".GenerateQrCodeActivity">
+
+        <EditText
+            android:id="@+id/etText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/masukkan_text"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mbGenerate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/generate"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/etText" />
+
+        <ImageView
+            android:id="@+id/ivOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            app:layout_constraintTop_toBottomOf="@id/mbGenerate"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mbScan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/scan"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivOutput" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

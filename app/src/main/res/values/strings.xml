@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">ExampleFunction</string>
     <string name="generate_code_qr">Generate Code QR</string>
+    <string name="masukkan_text">Masukkan text…</string>
+    <string name="generate">Generate</string>
+    <string name="scan">Scan</string>
+    <string name="get_contact">Select Contact</string>
+    <string name="phone_number_result">Phone number result</string>
+    <string name="pilih_nomor_telepon">Nomor telepon</string>
+    <string name="nomor_telepon">Nomor telepon</string>
+    <string name="pilih">Pilih</string>
 </resources>
